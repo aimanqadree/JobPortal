@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://jobportal-lovat.vercel.app/v1"
