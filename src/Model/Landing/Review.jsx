@@ -14,7 +14,7 @@ function Review() {
 
         <div className={styles.box1}>
           <p className={styles.para}>"SkillMatch is excellent for salary insights and company reviews. It helps set realistic salary expectations but lacks some entry-level job listings."</p>
-          <h4 className={styles.h4review}>- Aiman Jan</h4>
+          <h4 className={styles.h4review}>- Pooja Sharma</h4>
         </div>
 
         <div className={styles.box1}>
