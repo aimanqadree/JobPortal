@@ -1,24 +1,41 @@
-import React from 'react'
+// import React from 'react'
 import styles from './landing.module.css'
 import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className= {styles.container2}>
         <ul className={styles.list}>
-          <li>Jobs</li>
-          <li>Browser Jobs</li>
+         <li>  <Link to="/jobs" className={styles.contact}>
+           Jobs
+              </Link></li>
+          {/* <li>Jobs</li> */}
+            <Link to="/contact" className={styles.contact}>
+                Contact
+              </Link>
           <li>Post a Job</li>
         </ul>
       
         <ul className={styles.list}>
-          <li>Signin Options</li>
-          <li>User</li>
+          <li><Link to="/auth" className={styles.contact}>
+                Signin Options
+              </Link></li>
+          <li><Link to="/user-profile" className={styles.contact}>
+                User
+              </Link></li>
           <li><Link to="/employer/auth">Employer</Link></li>
         </ul>
 
         <div>
           <h2>SKILLMATCH</h2>
-          <h4 className={styles.contact}>Contact</h4>
+          <p>
+            <Link
+              to="mailto:aimanqadree@gmail.com"
+              target="_blank"
+              className="text-gray-300 cursor-pointer hover:underline"
+            >
+             aimanqadree@gmail.com
+            </Link>
+          </p>
         </div>
 
         <div className= {styles.Creator}>

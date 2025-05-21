@@ -824,14 +824,14 @@ const Profile = () => {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-[#080808] p-6 pt-[15vh]">
+      <div className="min-h-screen bg-white] p-6 pt-[15vh]">
         <div className="max-w-3xl mx-auto">
           <div className="flex justify-between items-center mb-8">
-            <h1 className="text-4xl font-bold text-white">Profile</h1>
+            <h1 className="text-4xl font-bold text-black">Profile</h1>
             {!isEditing ? (
               <button
                 onClick={() => setIsEditing(true)}
-                className="px-6 py-3 bg-white text-[#080808] rounded-lg hover:bg-gray-100 transition-colors duration-200 font-semibold"
+                className="px-6 py-3 border text-black rounded-lg hover:bg-black hover:text-white transition-colors duration-200 font-semibold"
               >
                 Edit Profile
               </button>
@@ -839,13 +839,13 @@ const Profile = () => {
               <div className="flex gap-4">
                 <button
                   onClick={() => setIsEditing(false)}
-                  className="px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors duration-200 font-semibold"
+                  className="px-6 py-3 border text-black rounded-lg hover:bg-black hover:text-white transition-colors duration-300 font-semibold"
                 >
                   Cancel
                 </button>
                 <button
                   onClick={handleSubmit}
-                  className="px-6 py-3 bg-white text-[#080808] rounded-lg hover:bg-gray-100 transition-colors duration-200 font-semibold"
+                  className="px-6 py-3 bg-black text-white rounded-lg  hover:text-white hover:bg-black/80 transition-colors duration-300 font-semibold"
                 >
                   Save Changes
                 </button>

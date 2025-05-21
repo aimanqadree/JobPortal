@@ -5,7 +5,7 @@ import { BACKEND_URL } from '../../../lib';
 import axios from "axios"
 import Navbar from '../../components/Navbar';
 import { toast, Toaster } from 'sonner';
-import Footer from '../../Model/Landing/Footer';
+
 
 function Jobs() {
     const [jobs, setJobs] = useState([]);
@@ -31,9 +31,9 @@ function Jobs() {
         try {
             const response = await axios.get(`${BACKEND_URL}/user/jobs/${searchQuery}`)
             console.log(response.data)
-            if(response.data.length === 0){
+            if (response.data.length === 0) {
                 toast.error("No jobs found")
-            }else{
+            } else {
                 setJobs(response.data);
             }
             setVisibleJobs(9);
@@ -101,13 +101,13 @@ function Jobs() {
                                     </div>
                                     :
                                     // [1,2,3,4,5]
-                                    <div> 
+                                    <div>
                                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                                             {visibleJobsList.map((job) => (
-                                                <JobCard 
-                                                    key={job.id} 
-                                                    item={job} 
-                                                    buttonName={appliedJobs.includes(job.id) ? "Applied" : "Apply"} 
+                                                <JobCard
+                                                    key={job.id}
+                                                    item={job}
+                                                    buttonName={appliedJobs.includes(job.id) ? "Applied" : "Apply"}
                                                     onApplySuccess={handleApplySuccess}
                                                 />
                                             ))}
@@ -128,7 +128,6 @@ function Jobs() {
                         </div>
                     </div>
             }
-            <Footer />
         </>
 
     );
