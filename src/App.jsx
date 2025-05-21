@@ -38,10 +38,9 @@ function App() {
             </Route>
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<div>Page not found</div>} />
-             <Route path="/auth" element={<Auth />} />
-             
-          <Route path="/employer/auth" element={<EmployerAuth />} />
           </Route>
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/employer/auth" element={<EmployerAuth />} />
         </Routes>
       </BrowserRouter>
     </>
