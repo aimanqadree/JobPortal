@@ -45,7 +45,7 @@
                  /* Footer */
 
 .container2 {
-    background-color: black;
+    background-color: rgb(49, 45, 45);
     color: white;
     display: flex;
     justify-content: space-evenly;
@@ -85,6 +85,7 @@
  .headingreview{
     text-align: center;
     padding: 30px;
+    font-size: 25px;
  }         
  .parentreview{
     display: flex;

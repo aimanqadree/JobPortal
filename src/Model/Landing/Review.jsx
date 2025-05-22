@@ -19,8 +19,13 @@ function Review() {
 
         <div className={styles.box1}>
           <p className={styles.para}>"SkillMatch offers a streamlined application process and excellent job matching algorithms. It's great for finding jobs."</p>
-          <h4 className={styles.h4review}>- Hiten Yadav</h4>
+          <h4 className={styles.h4review}>- John Das</h4>
         </div>
+
+       <div className={styles.box1}>
+        <p className={styles.para}>"In SkillMatch the resume builder is incredibly helpful and the AI suggestions improved my resume significantly. I just wish there were more remote job options in my field."</p>
+        <h4 className={styles.h4review}>- Priya Patel</h4>
+       </div>
 
       </div>
     </div>
