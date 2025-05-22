@@ -21,9 +21,8 @@ function Footer() {
         </Link></li>
 
         <li>{localStorage.getItem('token') && localStorage.getItem('type') === 'user'}
-          <Link to="/user-profile" className={styles.contact}>
-            User
-          </Link>:
+          <Link to="/user-profile" className={styles.contact}></Link>
+
           <Link to="/auth" className={styles.contact}>User</Link>
         </li>
 
@@ -44,7 +43,7 @@ function Footer() {
       </div>
 
       <div className={styles.Creator}>
-        <p>© Copyright 2025 By <span className='text-[rgb(93,242,190)]'>Aiman Jan</span>, All Rights Reserved.</p>
+        <p>© Copyright 2025 By <span className='text-[rgb(93,242,190)]'>Aiman Qadree</span>, All Rights Reserved.</p>
       </div>
 
     </div>
