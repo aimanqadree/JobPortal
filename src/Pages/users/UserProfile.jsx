@@ -4,8 +4,15 @@ import axios from "axios"
 import { BACKEND_URL } from '../../../lib';
 import Navbar from '../../components/Navbar';
 import { toast, Toaster } from 'sonner';
+import { useNavigate } from 'react-router-dom';
 
 const Profile = () => {
+  const navigate = useNavigate()
+  useEffect(()=>{
+    if(localStorage.getItem('token') || !localStorage.getItem('type')==='user'){
+      navigate('/auth')
+    }
+  },[])
   const [isEditing, setIsEditing] = useState(false);
   const [profile, setProfile] = useState({
     userProfile: { 
