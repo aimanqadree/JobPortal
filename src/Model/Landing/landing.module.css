@@ -58,8 +58,9 @@
 .Creator {
     position: absolute;
     bottom: 10px;
-    left: 45%;
+    left: 40%;
     cursor: pointer;
+    font-size: larger;
 }
 
 .list {

@@ -39,7 +39,7 @@ function Footer() {
         </div>
 
         <div className= {styles.Creator}>
-          <p>Made with 🖤 by Aiman Jan</p>
+          <p>© Copyright 2025 By <span className='text-[rgb(93,242,190)]'>Aiman Jan</span>, All Rights Reserved.</p>
         </div>
       </div>
     

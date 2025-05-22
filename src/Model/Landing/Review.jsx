@@ -9,7 +9,7 @@ function Review() {
 
         <div className={styles.box1}>
           <p className={styles.para}> "SkillMatch is user-friendly and has a vast database of job listings. However, Sometimes it can be challenging to get in touch with recruiters directly."</p>
-            <h4 className={styles.h4review}>- Abishek Newar</h4>
+            <h4 className={styles.h4review}>- Arman Newar</h4>
         </div>
 
         <div className={styles.box1}>
@@ -19,7 +19,7 @@ function Review() {
 
         <div className={styles.box1}>
           <p className={styles.para}>"SkillMatch offers a streamlined application process and excellent job matching algorithms. It's great for finding jobs."</p>
-          <h4 className={styles.h4review}>- John Das</h4>
+          <h4 className={styles.h4review}>- John Dass</h4>
         </div>
 
        <div className={styles.box1}>
