@@ -4,7 +4,7 @@ import './App.css'
 import Landing from "./Pages/Landing/Landing"
 import Jobs from "./Pages/users/Jobs"
 import MyApplications from "./Pages/users/MyApplications"
-import UserProfile from "./Pages/users/UserProfile" // Add this import
+import UserProfile from "./Pages/users/UserProfile" 
 import EmployerDashboard from "./Pages/Employer/EmployerDashboard"
 import EmployerAuth from "./Pages/Employer/EmployerAuth"
 import PersonalDetails from "./Pages/SignupFlow/PersonalDetails"
@@ -45,7 +45,7 @@ function App() {
       </BrowserRouter>
     </>
 
-    
+
   )
 }
 

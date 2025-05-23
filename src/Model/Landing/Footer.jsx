@@ -43,7 +43,7 @@ function Footer() {
       </div>
 
       <div className={styles.Creator}>
-        <p>© Copyright 2025 By <span className='text-[rgb(93,242,190)]'>Aiman Qadree</span>, All Rights Reserved.</p>
+        <p>© Copyright 2025 By <span className='text-[rgb(72,206,159)]'>Aiman Qadree</span>, All Rights Reserved.</p>
       </div>
 
     </div>
