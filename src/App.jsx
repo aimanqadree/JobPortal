@@ -21,8 +21,8 @@ function App() {
         <Routes>
 
           <Route path="/" element={<Layout />}>
-            <Route index element={<Landing />} />
 
+            <Route index element={<Landing />} />
             <Route path="/user-profile" element={<UserProfile />} />
             <Route path="/jobs" element={<Jobs />} />
             <Route path="/my-applications" element={<MyApplications />} />
@@ -39,6 +39,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<div>Page not found</div>} />
           </Route>
+
           <Route path="/auth" element={<Auth />} />
           <Route path="/employer/auth" element={<EmployerAuth />} />
         </Routes>
