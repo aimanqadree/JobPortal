@@ -4,7 +4,7 @@ import './App.css'
 import Landing from "./Pages/Landing/Landing"
 import Jobs from "./Pages/users/Jobs"
 import MyApplications from "./Pages/users/MyApplications"
-import UserProfile from "./Pages/users/UserProfile" 
+import UserProfile from "./Pages/users/UserProfile"
 import EmployerDashboard from "./Pages/Employer/EmployerDashboard"
 import EmployerAuth from "./Pages/Employer/EmployerAuth"
 import PersonalDetails from "./Pages/SignupFlow/PersonalDetails"
@@ -36,6 +36,7 @@ function App() {
               <Route path="experience" element={<Experience />} />
               <Route path="education" element={<Education />} />
             </Route>
+
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<div>Page not found</div>} />
           </Route>

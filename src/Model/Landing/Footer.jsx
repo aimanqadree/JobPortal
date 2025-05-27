@@ -8,7 +8,7 @@ function Footer() {
         <li>  <Link to="/jobs" className={styles.contact}>
           Jobs
         </Link></li>
-        {/* <li>Jobs</li> */}
+      
         <Link to="/contact" className={styles.contact}>
           Contact
         </Link>
